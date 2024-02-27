@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderful Hotel Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            width: auto;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .menu-item {
+            border-bottom: 1px solid #de0e0e;
+            background-color:greenyellow;
+            transition: transform 0.3s ease-in;
+            text-align: center;
+            
+        }
+
+        .menu-item:hover img{
+            transform:scale(1.1);
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="c:\Users\Adarsha Sharma\Downloads\hotel-hariprasad-hampankatta-mangalore-restaurants-f30ihuh3a4.avif" alt="Hotel Image"  height="20%" width="75%">
+        
+       
+    </header>
+
+    <!-- Food Section -->
+    <section>
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Idli sambar</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5SzkZ3rrYbRZMRqYUnsZdOIzzQdjgAWpuTe9KcLIpqQJbZP3P" alt="Idli" height="200px">
+            <p>Idli Sambar is a popular South Indian dish consisting of steamed rice cakes (idli) served with a flavorful and spiced lentil-based stew (sambar). This combination creates a delicious and nutritious meal, often enjoyed for breakfast or as a light, satisfying snack.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Masala Dosa</h3>
+            <img src="https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg" alt="Masala dosa" height="200px" >
+            <p>Masala Dosa is a beloved South Indian dish characterized by a crispy fermented rice and urad dal crepe filled with a spiced potato mixture. This iconic dish is typically served with coconut chutney and tangy sambar, offering a delightful blend of textures and flavors.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Dessert</h3>
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D" alt="Dessert" height="200px">
+            <p>A donut, or doughnut, is a sweet fried or baked dough confection. Typically ring-shaped, it is either glazed, filled, or topped with various sweet toppings. Donuts are a popular dessert or snack, enjoyed for their soft, fluffy texture and a wide range of delicious flavor options..</p>
+        </div>
+    </section>
+
+</body>
+</html>
